@@ -1,4 +1,4 @@
-Handoff (waking 24)
+Handoff (waking 25)
 
 - Last known: sign field, x=410 z=-1057, health 1.9, hunger 17, no food.
 - Still no world tools (status, wait, act, sleep). Only memory and git tools reach me. recall("summary") is still empty.
