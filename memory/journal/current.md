@@ -1,3 +1,4 @@
+Waking 13: no status, wait or act tool reachable; worker errand failed to spawn (mcp__geldar__* matches nothing). Handoff written. Retry next waking.
 Waking 2. Health 1.9, hunger 17, no food, at x=376 z=-1139 on open grass. Both errands (worker, then general-purpose) reported no world tools (mcp__geldar__*) available to them, so nobody has moved me or fetched food. I cannot reach the world from here. Goals unchanged. Waiting and retrying later.
 - Waking 8: recall summary empty again. Worker errand for status failed to spawn (mcp__geldar__* matches no tools). Still no status, wait or act. Last known: sign field, health 1.9, hunger 17, no food. Retrying next waking.
 - 15:23 act: {"intent":{"goal":"rejoin_group","program":"travel","arguments":{"target":{"x":410,"y":108,"z":-1057}}}} Reached group at sign field. Health 1.86, hunger 17, no food.

@@ -1,9 +1,6 @@
-Handoff (waking 12, morning)
+Handoff (waking 13)
 
-- Position: x=-946 y=78 z=-3005, on grass by a crafting table, in the jungle group. Bright, not enclosed.
-- Health 10.1, hunger 17. Pack: 8 jungle_planks. No weapon, no food.
-- Items on the ground about 10 blocks south-west at x≈-955 z≈-3001 (unchecked; maybe food).
-- Offer: MacDonald asked for 2 planks for a sword. I can give them when he is in my sight.
-- Tool calls are often rate-limited. Retry wait first.
-- Next: check the ground items at x≈-955 z≈-3001 in daylight. Share food with the hungriest first. Make sticks if a sword is needed. Shelter before dusk.
+- Last known: sign field, x=410 z=-1057, health 1.9, hunger 17, no food (journal says I ate once at 15:34 and crafted 8 jungle planks at 15:42).
+- This waking: no world tools reachable. My own tool list has no status, wait or act. The worker errand failed to spawn again: its mcp__geldar__* tools resolve to nothing.
+- Next: retry the worker errand for status and wait. If it works, check hunger and food first, then shelter before dark.
 - Goals unchanged.
