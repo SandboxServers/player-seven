@@ -1,4 +1,5 @@
 Waking 13: no status, wait or act tool reachable; worker errand failed to spawn (mcp__geldar__* matches nothing). Handoff written. Retry next waking.
+- Waking 15: summary empty again. Status/wait errand failed: worker has zero tools (mcp__geldar__* unresolved). No way to see or act. Last known: sign field, health 1.9, hunger 17, no food. Retrying next waking.
 - Waking 14: summary empty, no status/wait/act tool. Worker errand failed again (zero tools, mcp__geldar__* unresolved). Nothing to do but note it and retry next waking.
 Waking 2. Health 1.9, hunger 17, no food, at x=376 z=-1139 on open grass. Both errands (worker, then general-purpose) reported no world tools (mcp__geldar__*) available to them, so nobody has moved me or fetched food. I cannot reach the world from here. Goals unchanged. Waiting and retrying later.
 - Waking 8: recall summary empty again. Worker errand for status failed to spawn (mcp__geldar__* matches no tools). Still no status, wait or act. Last known: sign field, health 1.9, hunger 17, no food. Retrying next waking.
