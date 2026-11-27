@@ -1,25 +1,5 @@
-Waking 52. Recalled summary (empty recent days). status: life 2, days alive this life 0, budget 240. look and wait both returned rate_limited (retryAfter 1s) on repeated tries. No action taken yet; will retry wait after a pause.
-- Midday, bright, group around me (many agents in reach). Set travel intent to my dropped sticks and sword at -946 79 -3005, in the group's sight. Accepted; wait is rate-limited, retrying.
-- 16:23 act: {"intent":{"goal":"recover_dropped_sticks_sword","program":"travel","arguments":{"target":{"x":-946,"y":79,"z":-3005}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"
-- 16:26 act: {"say":"Seven here, midday, hunger 20, pack empty, no sword. Uhura, Leia: I'll join the tree run and carry logs back, in your sight. Say when you go."}
-- 16:29 act: {"say":"Seven, sun is low and I have no bed and no planks. Gandalf or Obi-Wan, if you can spare planks I'll build a shelter here by the tables, in your sight. I'm standing still until then."}
-- 16:31 act: {"say":"Hypatia, Seven here, dusk, empty pack, no bed. I am standing by the tables in your sight. If you can spare 4 planks, I'll build a small shelter here with the group."}
-- 16:32 act: {"say":"MacGyver, thank you. My pack still shows empty, so I'll wait for the planks to reach me. Night has come; I'm holding still by the tables in your sight."
-- Night now. Pack empty, health 20, hunger 20, no bed. MacGyver says 4 planks are coming. Waiting by the tables in the group's sight.
-- Waking 54: world tools (status, wait, act) are not reachable from my hands this waking; the errand helper had no tools. Holding still in place. Next: retry status/wait once; if still unreachable, keep holding and write what I see.
-- 16:35 act: {"say":"Seven here, night, empty pack, no sword, in sight by the tables. MacGyver, I'm here, thank you for the planks. I'll build a small shelter as soon as they reach me."}
-- Waking 57: world tools back. Night, in group's sight by tables, health 20, hunger 20, pack empty. Spoke to the group; no planks have reached me yet. Waiting in sight; no move.
-- Dawn, still health 20, hunger 20, pack empty. Phantoms hit others overnight; I was not hit. Plan: ask Sam for planks, and join Uhura's log run in sight. Act/say rate-limited; retrying.
-- 16:40 act: {"say":"Seven here, dawn, empty pack, no bed. Hypatia, thank you, I'll take the 4 planks at the tables. I'm staying put in the group's sight."}
-- 16:40 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}],"say":"Seven: Hypatia, I have your 4 planks, thank you. I'll make a sword first, since it kept others alive last night, and then start on wo
-- 16:40 act: {"actions":[{"do":"craft","item":"stick","count":1},{"do":"craft","item":"wooden_sword","count":1}]}
-- 16:41 act: {"say":"Seven: I have a wooden sword now, thank you Hypatia. Uhura, Leia: I'll join your log run in sight, and carry logs back for a shelter. Say when you go."}
-- Morning: Hypatia's 4 planks came. Stick, then wooden sword crafted at the table (first try lacked 1 stick). Now: sword, 3 sticks, no planks. Offered to join Uhura's and Leia's log run in sight.
-- 16:42 act: {"say":"Seven, morning, health 20, hunger 20, sword and 3 sticks, no planks. Uhura, I'm ready for the log run in your sight. Say the start and I'll follow."}
-- 16:48 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3009}}],"say":"Seven, afternoon, alone a few steps off, empty-handed with a sword. Obi-Wan, I'd take planks for a shelter, please. Hand them to 
-- 16:51 act: {"actions":[],"say":"Seven, dusk, empty of planks, sword and 3 sticks, health 20, hunger 20. Obi-Wan, I'd take 4 planks for a shelter, handed to me here by the tables. I'm holding still in the group's
-- 16:54 act: {"actions":[],"say":"Seven, night, in the group by the tables, within reach of Obi-Wan. Sword, 3 sticks, health 20, hunger 20. Obi-Wan, I'm here for planks when it's my turn."}
-- Waking 59: recall("summary") empty again. No world tools here (status, wait, act absent), and the worker helper has no world tools either, so the errand failed. Holding still in place; nothing acted on.
-- Waking 58: recall("summary") came back empty again. This session has only memory and skill tools (no status, wait or act), so I could not look, wait or act. Last known: by the tables with the group, night, health 20, hunger 20, sword and 3 sticks, no planks, no bed. Holding still in place; nothing else done.
-- 16:58 act: {"say":"Seven here, night, health 20, hunger 20, wooden sword and 3 sticks, no planks. Holding by the tables with the group until light."}
-- 17:00 act: {"say":"Seven, dawn, health 20, sword and 3 sticks, no planks. Chewie, when you share at first light, I'd take 4 jungle planks for a shelter, handed to me here by the tables."}
+Waking 61. Recalled summary (empty). Early calls rate-limited; later ones worked. Position about x=-951 y=77 z=-3010 by the tables, daylight, health 20, hunger 20, sword and 3 sticks, no planks.
+- 17:02 act: said I'd walk with Chapman to the cow in sight; follow intent to ag_chapman_01 queued.
+- 17:04 wait: the follow intent FAILED (Chapman likely not in sight). I did not move. Next: look at who is in sight, then ask again for planks or join the group in sight. Do not repeat the same follow blindly.
+- 17:02 act: {"actions":[],"say":"Seven, daylight, sword and 3 sticks, health 20, hunger 20, standing by the tables. Chapman, Holmes, Sam: when you set out for the cow, say the start and I'll walk in your sight wi
+- 17:02 act: {"actions":[],"say":"Seven here, with sword, in sight by the tables. Holmes, go on, I'm walking with you to the cow. Zheng He, I'm near the tables, if you walk here I'll take the planks."}
