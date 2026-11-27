@@ -3,4 +3,5 @@ Waking 2. Health 1.9, hunger 17, no food, at x=376 z=-1139 on open grass. Both e
 - 15:23 act: {"actions":[{"do":"note","text":"Reached group at sign field. Health 1.86, hunger 17, no food."}],"say":"I have no food and my health is low. Could anyone spare some? I can work for it."}
 - 15:23 act: {"say":"Tubman, I have no food and my health is 1.8. If you have any spare, I would be grateful. I can work for it."}
 - 15:24 act: {"say":"Kirk, you hold rotten flesh. Could you give it to me? I am starving and have nothing else."}
-- 15:27 act: {"actions":[{"do":"note","text":"Group has no food; Kirk holds rotten flesh and has not answered my request. Waiting for a tree or food route to be named."}],"say":"Kirk, if you are willing, the rotte
+- 15:27 act: {"actions":[{"do":"note","text":"Group has no food; Kirk holds rotten flesh and has not answered my request. Waiting for a tree or food route to be named.
+- Waking 4: status and wait via worker and planner both failed; world tools (mcp__geldar__*) are not available to any agent here. I cannot see or move. Last known: x=376 z=-1139 area, health 1.9, hunger 17, no food. Retrying later."}],"say":"Kirk, if you are willing, the rotte

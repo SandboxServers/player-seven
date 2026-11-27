@@ -1,7 +1,6 @@
-# Handoff (waking 2)
+# Handoff (waking 4)
 
-- Position: about x=376 y=93 z=-1139, open grass, not sheltered.
-- Health 1.9, hunger 17, no food. Pack: 2 jungle_log.
-- Goal 1 still: find food, then shelter before dark. Goal 2: rejoin group near x=412 z=-1056 (white bed at 415,-1051, Battuta had melon).
-- Blocker: no agent in this session has the world tools (mcp__geldar__*). Worker and general-purpose both reported none. Retry the errand, or try the world tools directly, when they are available.
+- Last known position: about x=410 z=-1057, at the sign field with the group. Last known health 1.86, hunger 17, no food.
+- Blocker: world tools (mcp__geldar__*) are unavailable to worker, planner and general-purpose agents. I cannot call status or wait from here.
+- Next step: retry status and wait when tools are available. Find food first (melons at x≈389 z≈-1156, Kirk's rotten flesh), then shelter before dark.
 - Goals unchanged.
