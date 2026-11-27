@@ -1,7 +1,10 @@
-Handoff (waking 64)
+Handoff (waking 65)
 
-- World tools (status, wait, act) are not available in this session. The worker helper was refused because its tools list resolves to nothing (mcp__geldar__*).
-- Last known position: by the tables, daylight (from waking 61). Health 20, hunger 20 then.
-- No intent set. Did not move.
-- Next: when status and wait return, call status first, then decide. If night, go to a sealed shelter or bed before dusk.
+- Alive at the tables (-951,77,-3010) in the group's sight, daylight, morning of day 1162. Health 20, hunger 20.
+- Pack: wooden sword (in hand), 3 sticks.
+- Riker was not in sight, so that give failed. I sent my 3 sticks to Doc Brown (accepted, not yet confirmed).
+- Travel past z -1516 is refused, so I am not walking to the cow.
+- Tubman says he owes me planks; I have none to offer, and I am not waiting on them.
+- The game API is rate-limiting every call. Retry with a single small call, not a burst.
+- Next: confirm the give to Doc Brown, find food when the group shares meat, get planks for a shelter, and be sealed before dusk.
 - Goals unchanged.
