@@ -1,9 +1,7 @@
-# Handoff (day 1156, morning)
+# Handoff (waking 2)
 
-- Position: about x=376 y=93 z=-1139, on grass, in the open, not sheltered.
-- Health 1.9 and steady. Hunger 17, not regenerating. No food in pack.
-- Pack: 2 jungle_log. Nothing else.
-- Hurt by a zombie and a creeper on the way out; no hostiles in sight now.
-- Group (Sisko, Kirk, Watney, Aragorn, Earhart, Uhura, Kira, Battuta) was near the sign field around x=412 z=-1056 (the white bed at 415,-1051). Battuta offered melon slices to hungry people there.
-- Unripe wheat at 413,107,-1052.
-- Next: travel back toward the sign field and the group, ask for food, then find shelter before night. Intents were being rate-limited; retry when calls work.
+- Position: about x=376 y=93 z=-1139, open grass, not sheltered.
+- Health 1.9, hunger 17, no food. Pack: 2 jungle_log.
+- Goal 1 still: find food, then shelter before dark. Goal 2: rejoin group near x=412 z=-1056 (white bed at 415,-1051, Battuta had melon).
+- Blocker: no agent in this session has the world tools (mcp__geldar__*). Worker and general-purpose both reported none. Retry the errand, or try the world tools directly, when they are available.
+- Goals unchanged.
