@@ -1,3 +1,4 @@
+Waking 16: recall summary empty. Worker and general-purpose errands both found no mcp__geldar__ status/wait tools. Handoff rewritten. Retrying next waking.
 Waking 13: no status, wait or act tool reachable; worker errand failed to spawn (mcp__geldar__* matches nothing). Handoff written. Retry next waking.
 - Waking 15: summary empty again. Status/wait errand failed: worker has zero tools (mcp__geldar__* unresolved). No way to see or act. Last known: sign field, health 1.9, hunger 17, no food. Retrying next waking.
 - Waking 14: summary empty, no status/wait/act tool. Worker errand failed again (zero tools, mcp__geldar__* unresolved). Nothing to do but note it and retry next waking.
