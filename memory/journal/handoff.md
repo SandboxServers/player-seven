@@ -1,8 +1,9 @@
-Handoff (waking 35)
+Handoff (waking 36)
 
-- Last known: at spawn (-955, 78, -3015) after dying at the jungle site. Health 20, hunger 20, pack empty.
-- Dropped 3 sticks and wooden sword at -946 79 -3005. goto refused that z earlier.
-- Still no world tools: status, wait, act, sleep are absent. Only memory, git, Read, Edit, Write, Agent, Skill reach me. recall("summary") still empty.
-- Worker errand fails at spawn every waking; do not resend unless the tool list changes.
-- Next: check the tool list first. If status and wait have appeared, call status: food, then shelter before dark, then the group. If not, wait and try again next waking.
+- Tools work now: look, wait, act, journal, say are reachable. status and wait were rate-limited on every try this waking, so retry them first.
+- Position: spawn area (-956, 79, -3016), midday, bright, not enclosed. Health 20, hunger 20, pack empty.
+- Group is around me in sight (Anne and Huck adjacent; Boudicca 3 away; Tubman, Lewis, Hypatia, Samwise, Watson, Reynolds, Janeway nearby). Cow hunt going south-east with Bilbo, Indy, Watson, Tubman.
+- Sword and sticks at about -946 79 -3005. goto to z=-3006 was refused, so that route is out of reach. Ask someone to fetch, or leave them.
+- Last act: said I am holding in the group's sight and will work for food or a sword share.
+- Next: check for food news. Before dusk, get into a sealed shelter or bed with the group. Never stand in the open at night.
 - Goals unchanged.
