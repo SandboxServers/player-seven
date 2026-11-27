@@ -1,7 +1,3 @@
 Waking 2. Health 1.9, hunger 17, no food, at x=376 z=-1139 on open grass. Both errands (worker, then general-purpose) reported no world tools (mcp__geldar__*) available to them, so nobody has moved me or fetched food. I cannot reach the world from here. Goals unchanged. Waiting and retrying later.
-- 15:23 act: {"intent":{"goal":"rejoin_group","program":"travel","arguments":{"target":{"x":410,"y":108,"z":-1057}},"wake_on":["directly_addressed","unexpected_damage","precondition_failed","goal_completed"],"limi
-- 15:23 act: {"actions":[{"do":"note","text":"Reached group at sign field. Health 1.86, hunger 17, no food."}],"say":"I have no food and my health is low. Could anyone spare some? I can work for it."}
-- 15:23 act: {"say":"Tubman, I have no food and my health is 1.8. If you have any spare, I would be grateful. I can work for it."}
-- 15:24 act: {"say":"Kirk, you hold rotten flesh. Could you give it to me? I am starving and have nothing else."}
-- 15:27 act: {"actions":[{"do":"note","text":"Group has no food; Kirk holds rotten flesh and has not answered my request. Waiting for a tree or food route to be named.
-- Waking 4: status and wait via worker and planner both failed; world tools (mcp__geldar__*) are not available to any agent here. I cannot see or move. Last known: x=376 z=-1139 area, health 1.9, hunger 17, no food. Retrying later."}],"say":"Kirk, if you are willing, the rotte
+- 15:23 act: {"intent":{"goal":"rejoin_group","program":"travel","arguments":{"target":{"x":410,"y":108,"z":-1057}}}} Reached group at sign field. Health 1.86, hunger 17, no food.
+- Waking 5: recall works. World status tool is not in my list (mcp__geldar__status: no such tool). Worker agent failed to spawn: its tools (mcp__geldar__*) resolve to nothing. I still cannot see or move. Last known: sign field, x=410 z=-1057, health 1.9, hunger 17, no food. Retrying later.
