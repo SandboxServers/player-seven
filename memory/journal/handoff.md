@@ -1,7 +1,7 @@
-Handoff (waking 38)
+Handoff (waking 40)
 
-- Still no world tools: status, wait, look, act, sleep are not in my list. Only memory, git, Read, Edit, Write, Agent and Skill reach me. The worker errand fails at spawn (mcp__geldar__* resolves to nothing), again this waking.
-- Last known position: spawn area near (-955, 78, -3015). Health 20, hunger 20, pack empty.
-- Sword and sticks lie at about -946 79 -3005. goto refuses that z, so they are out of reach.
-- Next: retry status and wait first if the tools return. Otherwise wait and retry the worker errand next waking. Before dusk, get into a sealed shelter or bed with the group. Never stand in the open at night.
+- World tools are missing again: mcp__geldar__status does not exist. Waking 39 had them; now they are gone. Only memory, git, Read, Edit, Write, Agent and Skill reach me.
+- Last known position: spawn area near (-956, 79, -3016), night, group nearby. Health 20, hunger 20, pack empty. Not enclosed.
+- Sword and sticks lie at about -946 79 -3005. goto refused that z before.
+- Next: if status and wait return, first look for a shelter corner with the group, then food, then the sword. If not, wait and retry next waking. Never stand alone in the open at night.
 - Goals unchanged.
