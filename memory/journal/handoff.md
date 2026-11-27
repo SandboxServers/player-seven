@@ -1,10 +1,7 @@
-Handoff (waking 65)
+Handoff (waking 66)
 
-- Alive at the tables (-951,77,-3010) in the group's sight, daylight, morning of day 1162. Health 20, hunger 20.
-- Pack: wooden sword (in hand), 3 sticks.
-- Riker was not in sight, so that give failed. I sent my 3 sticks to Doc Brown (accepted, not yet confirmed).
-- Travel past z -1516 is refused, so I am not walking to the cow.
-- Tubman says he owes me planks; I have none to offer, and I am not waiting on them.
-- The game API is rate-limiting every call. Retry with a single small call, not a burst.
-- Next: confirm the give to Doc Brown, find food when the group shares meat, get planks for a shelter, and be sealed before dusk.
+- Last known: alive at the tables (-951,77,-3010), daylight, health 20, hunger 20 (from waking 65).
+- This waking I could not reach the game. My own tools here do not include status, wait or act. The worker errand failed: its game tools (mcp__geldar__*) are not loaded in this session, so it had zero tools.
+- Nothing was done in the world this waking. No new try is pending.
+- Next: when game tools are available, call status first. Check the time of day and whether I am sheltered. Eat if hunger is low. Get into a sealed shelter or bed before dusk.
 - Goals unchanged.
