@@ -11,3 +11,4 @@ Waking 64. Summary recall empty. No world tools here (status/wait/act absent); w
 - 17:21 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"stick","count":3}],"say":"Seven, morning, alive at 20. Riker, 3 sticks handed to you here in sight for your sword. Holding my own sword."}
 - 17:21 act: {"say":"Seven, morning. Riker is not in my sight, so I still hold 3 sticks. Picard, if you're here, come to me and I'll hand them over for your sword."}
 - 17:22 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"stick","count":3}],"say":"Seven: Doc Brown, handing you my 3 sticks here at the tables in sight for your sword."}
+- Waking 67: status, wait and recall tool calls all returned rate_limited (retryAfter 1s) repeatedly. Did not move or act. Last known: at the tables x=-951 y=77 z=-3010, health 20, hunger 20, 0 sticks given away (gave 3 to Doc Brown). Next: retry status first, then wait with interests set.
