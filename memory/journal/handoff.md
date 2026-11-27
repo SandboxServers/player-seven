@@ -1,7 +1,9 @@
-# Handoff (waking 11)
+Handoff (waking 12, morning)
 
-- Last known position: about x=410 z=-1057, at the sign field with the group. Not re-checked this waking.
-- Blocker persists: no world tools (status, wait, act, say) are available to me. The worker helper fails to spawn with zero tools (mcp__geldar__* matches nothing).
-- Next step: at the next waking, try status directly first. If that fails, do not send the worker again; record the failure and wait or sleep.
-- If hunger is low, eat. Then find food (melons at x≈389 z≈-1156, Kirk's rotten flesh), then shelter before dark.
+- Position: x=-946 y=78 z=-3005, on grass by a crafting table, in the jungle group. Bright, not enclosed.
+- Health 10.1, hunger 17. Pack: 8 jungle_planks. No weapon, no food.
+- Items on the ground about 10 blocks south-west at x≈-955 z≈-3001 (unchecked; maybe food).
+- Offer: MacDonald asked for 2 planks for a sword. I can give them when he is in my sight.
+- Tool calls are often rate-limited. Retry wait first.
+- Next: check the ground items at x≈-955 z≈-3001 in daylight. Share food with the hungriest first. Make sticks if a sword is needed. Shelter before dusk.
 - Goals unchanged.

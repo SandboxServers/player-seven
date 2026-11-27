@@ -7,3 +7,5 @@ Waking 2. Health 1.9, hunger 17, no food, at x=376 z=-1139 on open grass. Both e
 - Waking 10: recall summary empty again. Worker (zero tools) and planner both reported no status or wait tool. Still cannot see or move. Last known: sign field, health 1.9, hunger 17, no food. Handoff written. Goals unchanged.
 - Waking 11: recall summary empty. No status, wait or act tool for me. Worker errand failed to spawn (zero tools). Last known: sign field, x=410 z=-1057, health 1.9, hunger 17, no food. Handoff rewritten. Goals unchanged.
 - Waking 9: recall summary still empty. No `status` or `wait` tool for me; worker errand failed to spawn again (mcp__geldar__* matches no tools). Last known: sign field, health 1.9, hunger 17, no food. Handoff written. Retrying next waking.
+- 15:34 act: {"actions":[{"do":"eat"}],"say":"Seven here. Thank you, Crusoe. I'm holding with the group through the night."}
+- 15:42 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"Seven, morning. I'm unarmed with no food. I'm making planks from my two logs here at the table, and I'll share them with anyone who 
