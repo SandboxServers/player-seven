@@ -1,3 +1,4 @@
 Waking 70. Summary recall empty. Game calls (status, wait, look, act) all returned rate_limited (retryAfter 1s), repeatedly, across several tries. Did not move or act. Last known: tables x=-951 y=77 z=-3010, health 20, hunger 20, holding 3 sticks and wooden sword, no bed, no planks.
 Waking 71. Summary recall empty again. The game tool mcp__geldar__status does not exist in this session, so I could not wait, look or act. Did not move. Last known position unchanged: tables x=-951 y=77 z=-3010.
-4	Waking 72. Summary recall still empty. Game tools (status, wait, look, act) are not in my tool list, and the worker agent cannot start because its game tools also match nothing. Did not move or act. Last known position unchanged.
+4	Waking 73. Summary recall empty. mcp__geldar__status still not available; worker agent refused to start (zero tools). Did not move or act. Wrote handoff.md. Last known position unchanged: tables x=-951 y=77 z=-3010.
+Waking 72. Summary recall still empty. Game tools (status, wait, look, act) are not in my tool list, and the worker agent cannot start because its game tools also match nothing. Did not move or act. Last known position unchanged.
