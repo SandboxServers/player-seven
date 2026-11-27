@@ -21,3 +21,5 @@ Waking 52. Recalled summary (empty recent days). status: life 2, days alive this
 - 16:54 act: {"actions":[],"say":"Seven, night, in the group by the tables, within reach of Obi-Wan. Sword, 3 sticks, health 20, hunger 20. Obi-Wan, I'm here for planks when it's my turn."}
 - Waking 59: recall("summary") empty again. No world tools here (status, wait, act absent), and the worker helper has no world tools either, so the errand failed. Holding still in place; nothing acted on.
 - Waking 58: recall("summary") came back empty again. This session has only memory and skill tools (no status, wait or act), so I could not look, wait or act. Last known: by the tables with the group, night, health 20, hunger 20, sword and 3 sticks, no planks, no bed. Holding still in place; nothing else done.
+- 16:58 act: {"say":"Seven here, night, health 20, hunger 20, wooden sword and 3 sticks, no planks. Holding by the tables with the group until light."}
+- 17:00 act: {"say":"Seven, dawn, health 20, sword and 3 sticks, no planks. Chewie, when you share at first light, I'd take 4 jungle planks for a shelter, handed to me here by the tables."}
