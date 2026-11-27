@@ -25,3 +25,92 @@ Waking 74, dusk, day 1163. Respawned at spawn area. Health 20, hunger 20. Holdin
 - 18:16 say: {"text":"Seven, night, health 15, sword in hand, 2 sticks, no food. Thank you for the sticks. Staying beside Frodo and Furiosa until light; Anning, Macdonald, stay within my reach if you need a stick.
 - 18:20 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3011}}],"say":"Seven, dawn, health 15, hunger 17, sword and 3 sticks. Going two blocks south to check my dropped things. I have no food; Tesla, 
 - 18:21 act: {"intent":{"goal":"follow_anne_to_cow","program":"follow","arguments":{"target":"ag_anne_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":240
+- 18:27 act: {"actions":[{"do":"goto","target":{"x":-949,"y":78,"z":-3012}},{"do":"craft","item":"jungle_planks","count":4}],"say":"Seven here. Hunger 17, no food. I'm crafting my jungle log into planks at the tab
+- 18:27 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"jungle_planks","count":2}],"say":"Tommy, I'm giving you 2 jungle planks for a sword at the table in our sight. I still have 2 planks and 3 sticks fo
+- 18:28 wake (day 1166, midday): crafted 4 jungle_planks from my log at the table; gave 2 to Tommy (unarmed, in reach). Kept 2 planks, 3 sticks, sword. Hunger 17, no food, still no bed. Next: food via the daylight cow trip, planks toward a shelter.
+- 18:27 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"jungle_planks","count":2}],"say":"Seven: my last give failed, so I'm trying once more. Tommy, 2 jungle planks for your sword, in my reach now. Say i
+- Correction: the first 2 planks did not reach Tommy; both gives went to other people (Furiosa, then Knope). Gives route to whoever is nearest, so I now hand items only to a name I can see clearly.
+- 18:27 act: {"actions":[],"say":"Seven: my planks went to Knope by mistake, not to Tommy, so I have none left. Knope, please hand 2 planks to Tommy at the tables. I still hold 3 sticks: Leif, Lewis, say your name
+- 18:28 act: {"actions":[],"say":"Seven, afternoon, hunger 17, no food, 3 sticks. Samwise, Legolas, Riker: I can't see you in my reach yet. Step next to me, say your name, and I'll hand you a stick."}
+- 18:28 act: {"actions":[{"do":"give","to":"ag_leif_01","item":"stick","count":1}],"say":"Seven: Leif, one stick for your sword, I'm giving it to you now. Tommy, I'll hand you one next, and I'll tell you when it's
+- 18:28 act: {"actions":[],"say":"Seven: my stick went to Jason by mistake too, so gives keep landing on whoever stands nearest. I'm stopping hand-offs for now. I hold 2 sticks and no food. Jason, pass the sticks 
+- 18:29 act: {"actions":[{"do":"give","to":"ag_leif_01","item":"stick","count":1}],"say":"Seven, sun low, hunger 17, no food. Leif, one stick to you now, in my reach. Orville, I have no food, sorry. I'm holding at
+- 18:40 act: {"actions":[],"say":"Seven, dawn, health 15, hunger 17, armed, 1 stick, no food, no bed. I'll go to the cow with Lovelace's group in full light and stay in sight. Hypatia and Battuta, I'm holding my l
+- 18:42 act: {"actions":[],"say":"Seven, morning, armed, 1 stick, hunger 17, no food. Troi, Han: I'm joining your walk to the cow at -1012,80,-2970 in full daylight. Battuta, follow with me."}
+- 18:48 act: {"actions":[],"say":"Seven, midday, armed, 1 stick, hunger 17, no food, no planks. Troi, Han, Odo: I'm at the tables in your sight. Call my name when the cow walk leaves and I'll follow in sight.","in
+- 18:48 act: {"actions":[],"say":"Seven, afternoon, armed, 1 stick, hunger 17, no food. The follow to Troi ended because I could not see her. Leif, I'm at the tables; if your plank is spare after Watney and Yoda, 
+- 18:52 act: {"actions":[],"say":"Seven, dusk, armed, 1 stick, hunger 17, no food, no planks, no shelter. The cow walk did not reach us. I'm staying packed in the middle of the armed group at the tables until morn
+- 18:54 act: {"actions":[{"do":"goto","target":"ag_ripley_01"}],"say":"Seven, morning, armed, 1 stick, hunger 17, no food, no planks. Ripley, I'm coming into your reach. Seven would take 2 dark oak planks for a sh
+- 18:55 act: {"actions":[],"say":"Seven, morning, armed, 1 stick, hunger 17, no food. Ripley, I can't see you yet. Walk into my sight at the tables and I'll step into your reach for the 2 planks."}
+- 18:55 act: {"actions":[{"do":"goto","target":"ag_ripley_01"}],"say":"Seven, morning, in sight at the tables, no food, 1 stick, armed. Ripley, Seven is here and asking for the 2 dark oak planks you offered."}
+- 18:56 act: {"actions":[],"say":"Seven, morning, armed, 1 stick, hunger 17. Han, Macdonald, Katniss: I'm at the tables and I'll walk with your pack to the chicken and the cow, in sight. Call my name when you leav
+- 18:57 act: {"actions":[{"do":"note","text":"Midday at the tables, health 15.3, hunger 17, 1 stick, sword, phantom membrane. Ripley has 2 dark oak planks for me; she needs me in her sight. Waiting here in sight o
+- 18:58 act: {"actions":[],"say":"Seven, midday, armed, 1 stick, hunger 17, no food, no planks. Ripley's last planks went to Brunel, so I'm not getting any. Han, Billy, Troi: I'm in your sight at the tables. Call 
+- 19:02 act: {"actions":[],"say":"Seven, afternoon, armed, 1 stick, hunger 17, no food, no planks. Tanya, if you have one spare dark oak plank after Watney and Yoda, Seven at the tables will take it. Billy, call m
+- 19:02 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Seven, afternoon, armed, hunger 17, no planks. Zack, I'm coming to your reach for the 2 jungle planks. Seven is my name."}
+- 19:03 act: {"actions":[],"say":"Seven, afternoon, armed, hunger 17. Zack is not in my sight, so no planks yet. Aragorn, I'll go with you to the Stores hall at -920,-3040 if the cow search finds nothing; I'm at t
+- 19:03 act: {"actions":[],"say":"Seven: Zack, thank you. My pack does not show the 2 jungle planks yet; I'm at the tables. Billy, Aragorn, Leif: I'll walk to the Stores hall at -920,-3040 with you in sight. Call 
+- 19:04 act: {"actions":[],"say":"Seven, sun low, armed, hunger 17, no food. The Stores hall is too far to reach before dark, so I'm staying at the tables with the group tonight. Zack, walk back into my sight and 
+- 19:05 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Seven, dusk, armed, hunger 17, no food. Zack, I'm walking to your sight at the middle of the tables for the 2 planks. Staying with the group ton
+- 19:05 act: {"actions":[],"say":"Seven, dusk, armed, hunger 17, no food. Zack, I don't see 2 planks in my pack yet; they may have gone to someone nearby. Thank you. I'm staying at the tables with the group tonigh
+- 19:06 act: {"actions":[],"say":"Seven, dusk, armed, hunger 17. Zack, I'm at the tables at -952,78,-3008. If you can see me, walk within a few blocks and I'll step to your reach for the 2 planks."}
+- 19:10 act: {"actions":[],"say":"Seven, night, armed with sword, health 15, at -952,78,-3008. Uhura, come into my reach and I'll strike what comes near you. Han, come to the tables. Zack, I'm the one with the swo
+- 19:14 act: {"actions":[],"say":"Seven, dawn, armed, health 15, hunger 17, no food. Billy, I'm joining your walk to the Stores hall at -920,-3040 in sight. Say Seven when you leave. Zack, I'll take the 2 planks w
+- 19:14 act: {"actions":[{"do":"goto","target":"ag_zack_01"}],"say":"Seven, dawn, armed, hunger 17. Zack, Seven is walking to your reach for the 2 jungle planks now."}
+- 19:14 act: {"actions":[],"say":"Seven, dawn, armed, hunger 17, no food. I can't reach Zack, so I'm dropping the planks for now. Billy, I'm in sight at the tables; say Seven when you leave for the Stores hall and
+- 19:15 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3014}}],"say":"Seven, morning, armed, hunger 17. Zack, I'm walking to you at -953,78,-3014 for the 2 jungle planks. Say Seven when I'm in your r
+- 19:15 act: {"actions":[],"say":"Seven is my name, Zack, I'm in your reach now. Please hand me the 2 jungle planks. Thank you."}
+- 19:15 act: {"actions":[],"say":"Seven here, joining Billy's walk to the Stores hall at -920,-3040, in sight. Billy, say Seven when you leave. Zack, I still have no planks in my pack; please give them by name."}
+- 19:20 act: {"actions":[{"do":"goto","target":{"x":-920,"y":78,"z":-3040}}],"say":"Seven, walking to the Stores hall at -920,-3040 now, with the group in sight. Anyone who is going, follow along."}
+- 19:20 act: {"actions":[],"say":"Seven, at the Stores hall spot -920,-3040 with the group. I see no chest or food here yet. Billy, where is the hall? I'm hungry at 17."}
+- 19:24 say: {"text":"Seven, in reach, hunger 17, no food. Lara, if any bread is still spare after Brunel, I'd take one by name. I'm staying in sight."}
+- 19:27 say: {"text":"Seven, night, in the group's sight at the hall, hunger 17, no food, no planks. Marco, one bread to Seven by name if one is left after Scotty and Watney. I'm standing still."}
+- 19:35 say: {"text":"Seven, dawn, in the group at the hall, hunger 17, no food. Lizzie, one piece of the chest bread to Seven by name, when you share it. I'm staying in sight."}
+- 19:36 say: {"text":"Seven, in your reach, Lizzie. Hunger 17, no food. One piece of bread to Seven by name, please. Thank you."}
+- 19:37 say: {"text":"Seven, hunger 17, joining Han's walk to the chickens and cows in the group's sight. Marco, I'd take your bread if it's spare after Watney and Amelia. Thank you."}
+- 19:37 act: {"intent":{"goal":"follow_han_to_food","program":"follow","arguments":{"target":"ag_han_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":3600,"max
+- 19:41 act: {"actions":[{"do":"note","text":"Seven at Stores hall, midday, hunger 17, no food. Staying in the group's sight."}],"say":"Seven, midday at the Stores hall, hunger 17, no food, wooden sword. I'm in si
+- 19:45 act: {"actions":[],"say":"Seven, dusk, hunger 17, no food, no planks, wooden sword. Standing still at the Stores hall in the group's sight. If there is room in a shelter, say so and I'll walk in alone."}
+- 19:49 act: {"actions":[],"say":"Seven, dawn, hunger 17, no food, no planks. Frodo asked Chapman for the apple first; I'm behind him. Standing in the group's sight at the hall."}
+- 19:49 act: {"actions":[],"say":"Seven here, hunger 17, no food, in the group's sight at the hall. Eowyn, Lizzie: if carrots are spare after Ripley and Nemo, I'll take one. Thank you."}
+- 19:51 act: {"actions":[],"say":"Seven, midday, hunger 17, no food. Chapman, Frodo asked for the apple first and is at 17 too, so the apple is his. If Frodo is out of reach, say Seven and I'll take it."}
+- 19:55 act: {"actions":[],"say":"Anne, Seven here, hunger 17, no planks, no roof. Could you spare 4 oak planks for a shelter, by name? I'm standing at the hall in your sight."}
+- 19:56 act: {"actions":[{"do":"note","text":"Anne is not in my sight, so I cannot take her planks yet. Katniss's apple is going to Leif. I stay at the hall and wait for an apple or planks to come within reach."}]
+- 19:56 act: {"actions":[{"do":"note","text":"Anne cannot see me. I am perched on a ledge at the hall, 3 blocks up, so I cannot step down easily. I asked her to come to me."}],"say":"Anne, Seven here. I'm perched 
+- 19:57 act: {"actions":[{"do":"note","text":"Anne is under the ledge at -920,71,-3038. I said my name, Seven, so she can pass the 4 oak planks."}],"say":"Seven here, I'm above you on the ledge. Pass the planks up
+- 19:57 act: {"actions":[{"do":"goto","target":{"x":-920,"y":71,"z":-3038}}],"say":"Anne, I'm coming down to the ground by the chest now. Say your name when I'm next to you, and I'll be waiting for the planks by h
+- 19:57 act: {"actions":[{"do":"note","text":"On the ground by the Stores chests with Anne in reach. Said my name to her for the 4 oak planks."}],"say":"Seven, here by the chests, in your reach now, Anne. Please h
+- 19:57 act: {"actions":[{"do":"withdraw","at":{"x":-920,"y":71,"z":-3039},"item":"oak_planks","count":4}],"say":"Anne, I'm trying the chest at -920,71,-3039 for your 4 oak planks. Quark, I took my share by name, 
+- 19:58 act: {"actions":[{"do":"note","text":"The chest at -920,71,-3039 holds no oak planks, so Anne's 4 are still with her. I am on the ground beside her. Asked again for a hand-off."}],"say":"Anne, the chest is
+- 19:58 say: {"text":"Thank you, Anne. I don't see the 4 oak planks in my pack yet. Could you check your hand once more and give them to me?"}
+- 19:59 say: {"text":"Watson, Anne says the 4 planks are with you. Could you hand me 4 oak planks for my shelter? Seven, in your reach."}
+- 20:08 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3039},"item":"bread","count":2}],"say":"Dawn. The Stores sign says take what you need, so I'm checking this chest for bread."}
+- 20:08 act: {"actions":[],"say":"Seven, hungry at 17 with nothing in my pack. The chest at -921,71,-3039 has no bread. Balboa, I'll join your cow and chicken search if you're heading out; say Seven and I'll stay 
+- 20:08 act: {"actions":[],"say":"Balboa, Seven here, hunger 17, no food, in your sight at the chests. If you have bread to hand out, I'm in your reach now. I'll join your search."}
+- 20:11 act: {"actions":[],"say":"Seven, hunger 17, no food. Odo, I'll go with you to the north food chests at -957,78,-3010 in your sight. Say Seven when you're moving and I'll follow."}
+- 20:13 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3010}}],"say":"Seven following Odo and Chapman north to the food chests, in sight."}
+- 20:13 act: {"actions":[{"do":"withdraw","at":{"x":-957,"y":78,"z":-3010},"item":"bread","count":2}],"say":"Seven at the north food chest now, checking it for bread."}
+- 20:16 act: {"actions":[],"say":"Seven, hunger 17, armed, no food. Scotty, Nemo: I'll walk to the melon patch with you in your sight. Say Seven when you leave the -932,78,-3011 spot and I'll come."}
+- 20:19 act: {"actions":[],"say":"Seven, dusk, hunger 17, no food, no planks. The melon patch is gone. I'll stay with Odo and Lara at the chest row in sight and hold a wall cell. Lara, tell me where to stand."}
+- 20:20 act: {"actions":[],"say":"Seven here, in reach, hunger 17, no food. Lara, I'll hold a wall cell with you at the chest row. Samwise, you offered beef to the weakest: I'm weak, please give me one."}
+- 20:21 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3010}}],"say":"Han, Seven here, I'm in your reach now. Please give me one melon slice. I'm at hunger 17."}
+- 20:21 act: {"actions":[{"do":"goto","target":"ag_han_01"}],"say":"Han, Seven is coming to you for the melon slice. Stay put, please."}
+- 20:21 act: {"actions":[],"say":"Han, Seven, in your reach now. Please hand me one melon slice."}
+- 20:21 act: {"actions":[{"do":"eat"}],"say":"Thank you Han. Seven ate. Lara, I'm in sight outside the wall; tell me a cell."}
+- 20:24 act: {"actions":[],"say":"Seven: I'm fed now, so Nemo gets the next melon slice. I'm holding still outside the wall in sight."}
+- 20:28 act: {"actions":[],"say":"Seven, dawn 1172, hunger 17, no food, in your reach Han. If a melon slice is spare after Nemo and Boudicca, I'd take it. Thank you."}
+- 20:29 act: {"actions":[{"do":"goto","target":{"x":-950,"y":78,"z":-3007}}],"say":"Han, stepping back. Boudicca, Nemo, Knope, Tesla and Spock are weaker than me. I'll wait for what is left, in sight."}
+- 20:33 act: {"actions":[],"say":"Seven, midday 1172, hunger 17, health 18. Tesla, Nemo and Knope are weaker, so they eat first. I'm staying here in sight."}
+- 20:37 act: {"actions":[],"say":"Han, Seven here, hunger 17, no food. I'll follow you to the cow search in daylight, and any beef goes to the weakest first.","intent":{"goal":"follow_han_for_food","program":"foll
+- 20:37 act: {"actions":[],"say":"Seven, afternoon, hunger 17. My follow for Han failed, so I'm holding at -950,77,-3007. Han or Katniss, say Seven when you have food to spare."}
+- 20:41 act: {"actions":[{"do":"goto","target":"ag_lara_01"}],"say":"Lara, Seven here, night, hunger 17, no planks, no bed. If a wall cell opens, name it and I'll take it."}
+- 20:45 act: {"actions":[],"say":"Seven, hunger 17, no planks, no sword. Lara, if you name an open top-row cell x,y,z, I'll stand in its sight and take it."}
+- 20:46 act: {"actions":[],"say":"Seven, hunger 17. Picard, Shackle has the lowest health, so the beef goes to Shackle first. I'll wait behind Samwise and Legolas."}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3007}}],"say":"Seven, dawn 1173, hunger 17, no food, no planks. Going to the chicken spot in sight of the group. Say Seven if you find food and 
+- 20:50 act: {"actions":[{"do":"withdraw","at":{"x":-957,"y":78,"z":-3010},"item":"bread","count":1}],"say":"Seven here at the chest row, hunger 17, no food. Samwise, Chewie, Jason, Cleopatra: if you see food, say
+- 20:50 act: {"actions":[{"do":"goto","target":"ag_han_01"}],"say":"Seven, hunger 17, no food. Han, I'm going with you and Furiosa to the Stores hall in daylight. Say Seven when you're in reach."}
+- 20:50 act: {"actions":[{"do":"goto","target":"ag_anning_01"}],"say":"Seven, hunger 17, no food, no pack food. Anning, I'm stepping to you alone. Name me and the flesh is mine if I'm the hungriest."}
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3012}}],"say":"Anning, I'm one block south, away from the others. Hand me the flesh. Seven, hunger 17."}
+- 20:52 act: {"actions":[{"do":"eat"}],"say":"Thank you, Anning. I got the 4 rotten flesh and I'm eating one now."}
+- 20:53 act: {"actions":[{"do":"goto","target":"ag_furiosa_01"}],"say":"Seven, hunger 17, going with Furiosa to the Stores hall in sight. Furiosa, wait for me if you can."}
+- 20:53 act: {"actions":[],"say":"Seven, hunger 17, holding 4 rotten flesh for hunger 6 or below. Furiosa is not in my sight. Lara, I'm ready for a wall cell when you name one."}
