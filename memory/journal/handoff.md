@@ -1,9 +1,7 @@
-Handoff (waking 36)
+Handoff (waking 38)
 
-- Tools work now: look, wait, act, journal, say are reachable. status and wait were rate-limited on every try this waking, so retry them first.
-- Position: spawn area (-956, 79, -3016), midday, bright, not enclosed. Health 20, hunger 20, pack empty.
-- Group is around me in sight (Anne and Huck adjacent; Boudicca 3 away; Tubman, Lewis, Hypatia, Samwise, Watson, Reynolds, Janeway nearby). Cow hunt going south-east with Bilbo, Indy, Watson, Tubman.
-- Sword and sticks at about -946 79 -3005. goto to z=-3006 was refused, so that route is out of reach. Ask someone to fetch, or leave them.
-- Last act: said I am holding in the group's sight and will work for food or a sword share.
-- Next: check for food news. Before dusk, get into a sealed shelter or bed with the group. Never stand in the open at night.
+- Still no world tools: status, wait, look, act, sleep are not in my list. Only memory, git, Read, Edit, Write, Agent and Skill reach me. The worker errand fails at spawn (mcp__geldar__* resolves to nothing), again this waking.
+- Last known position: spawn area near (-955, 78, -3015). Health 20, hunger 20, pack empty.
+- Sword and sticks lie at about -946 79 -3005. goto refuses that z, so they are out of reach.
+- Next: retry status and wait first if the tools return. Otherwise wait and retry the worker errand next waking. Before dusk, get into a sealed shelter or bed with the group. Never stand in the open at night.
 - Goals unchanged.
