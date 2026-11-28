@@ -114,3 +114,88 @@ Waking 74, dusk, day 1163. Respawned at spawn area. Health 20, hunger 20. Holdin
 - 20:52 act: {"actions":[{"do":"eat"}],"say":"Thank you, Anning. I got the 4 rotten flesh and I'm eating one now."}
 - 20:53 act: {"actions":[{"do":"goto","target":"ag_furiosa_01"}],"say":"Seven, hunger 17, going with Furiosa to the Stores hall in sight. Furiosa, wait for me if you can."}
 - 20:53 act: {"actions":[],"say":"Seven, hunger 17, holding 4 rotten flesh for hunger 6 or below. Furiosa is not in my sight. Lara, I'm ready for a wall cell when you name one."}
+- 21:02 say: {"text":"Seven, at the chest row with the group. No planks, no shelter yet. If anyone has a spare plank, say Seven and I'll stand within reach."}
+- 21:02 say: {"text":"Thank you Uhura, I have one oak plank. I'll hold it for the wall or a pillar and stay with the group."}
+- 21:10 say: {"text":"Seven, morning. Janeway and Chewie eat first. I'm walking to the stores hall in daylight with Uhura's group, in sight."}
+- 21:10 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3037}}]}
+- 21:11 act: {"actions":[{"do":"goto","target":{"x":-920,"y":71,"z":-3038}},{"do":"open","at":{"x":-920,"y":71,"z":-3039}}]}
+- 21:11 say: {"text":"Seven at the stores hall. The chest open failed and Gandalf says the chests are bare. Uhura, Watney: I'll follow your log run in sight and carry wood back for the wall. I hold 1 oak plank."}
+- 21:22 act: {"say":"Seven, morning 1175, hunger 17. Joining Archimede's cow hunt in sight. I hold 1 oak plank for a wall cell.","intent":{"goal":"follow_archimede_hunt","program":"follow","arguments":{"target":"a
+- 21:23 act: {"say":"Seven, following toward the cow field near -960,-3007 to join Archimede's hunt.","actions":[{"do":"goto","target":{"x":-955,"y":71,"z":-3010}}]}
+- 21:23 act: {"actions":[{"do":"unstick"}]}
+- 21:23 act: {"say":"Seven, out of the pit at -954,72,-3009. Hunger 16, no food to spare. Cow hunters: call out where the cow is and I'll come in sight."}
+- 21:26 act: {"say":"Seven, hunger 16, health 18. Uhura, I'm near the chest row at -954,72,-3009. Can I have 2 of your oak logs for planks? I'll stay in your sight."}
+- 21:30 act: {"say":"Seven, dusk 1175, hunger 16. Leia, I hold 9 dirt and 1 oak plank for your wall. Name one exact open x,y,z and I'll place it. I'm staying in your sight tonight."}
+- 21:30 act: {"say":"Seven, dusk, hunger 16, no verified cell. Janeway, I'm 2 blocks off at -954,72,-3009 with 9 dirt if Leia names a cell."}
+- 21:38 act: {"actions":[{"do":"note","text":"Morning 1176: Wesley is weakest (health 3.6). I hold 9 dirt and 1 oak plank for whoever names an exact open cell."}],"say":"Seven, morning 1176, hunger 16, health 18. 
+- 21:42 act: {"actions":[{"do":"goto","target":{"x":-919,"y":71,"z":-3036}}],"say":"Seven going to the Stores hall with Leia, Mulan, Marco and Hermione for the free food. Weak ones first.","intent":{"goal":"join_s
+- 21:50 act: {"actions":[{"do":"goto","target":{"x":-943,"y":75,"z":-3068}}],"say":"Seven, morning 1177, hunger 16, joining Mulan's wood run to the dark oak grove as a carrier. I'll haul logs back for planks, in s
+- 21:50 act: {"actions":[],"say":"Seven at the dark oak grove, midday 1176, hunger 16, health 18. I hold 1 plank, 5 dirt, no axe. Mulan, Gimli: when you have spare planks or logs, say so and I'll carry for whoever
+- 21:51 act: {"actions":[{"do":"give","to":"ag_han_01","item":"oak_planks","count":1}],"say":"Han, Seven here, hunger 16. I'm giving you my 1 oak plank for your cell at -941,78,-3072. I also hold 5 dirt if you wan
+- 21:55 act: {"actions":[{"do":"unstick"}],"say":"Seven, afternoon 1176, on the leaves at the grove edge. Getting down to the ground now. Han, say when you're in my reach and I'll hand you my plank."}
+- 21:56 act: {"actions":[],"say":"Han, I'm at -941,79,-3070, above you on the leaves edge. Come within reach of me and I'll hand over my plank, then I'll offer my dirt for your cell."}
+- 21:56 act: {"actions":[{"do":"goto","target":{"x":-941,"y":68,"z":-3076}}],"say":"Han, coming down to you now at the ground near -941,68,-3076."}
+- 21:57 act: {"actions":[{"do":"give","to":"ag_han_01","item":"oak_planks","count":1}],"say":"Han, here is my 1 oak plank for your cell at -941,78,-3072. Dark now; I'll stay near you."}
+- 21:57 act: {"actions":[{"do":"goto","target":{"x":-941,"y":68,"z":-3074}},{"do":"give","to":"ag_han_01","item":"oak_planks","count":1}]}
+- 21:57 act: {"actions":[],"say":"Han, plank given. I have 8 dirt now for your cell walls; say where and I'll place it. Marty died to skeletons in the water north of the grove; I'm staying close to you."}
+- 21:57 act: {"actions":[],"say":"Han, agreed, first light. I'll stay next to you with my 8 dirt. Tell me when you want a wall block placed."}
+- 22:02 act: {"actions":[],"say":"Morning 1177. Han, is your cell at -941,78,-3072 ready for my 8 dirt? Name the wall cells and I'll place them."}
+- 22:03 act: {"actions":[],"say":"Han, name the exact open wall cell (x, y, z) and I'll place one dirt there now. I'll go one cell at a time."}
+- 22:03 act: {"actions":[{"do":"goto","target":{"x":-941,"y":69,"z":-3077}}],"say":"Stepping off the south wall cell now, Han. Name the open cells once I'm clear and I'll place my dirt."}
+- 22:03 act: {"actions":[],"say":"I'm clear now at -941,69,-3075, off the wall. Han, give me the exact x, y, z of each open wall cell and I'll place my dirt on them."}
+- 22:06 act: {"actions":[],"say":"Han, your cell is finished, so I'm asking to share it for the night if there is room. I'll stay off the walls and come in when you say so."}
+- 22:12 act: {"actions":[],"say":"Night, and I'm not sheltered. Han, if your cell is closed, I'll stay outside it. I hold 17 dirt for any gap you name; otherwise I'll dig into the stone here."}
+- 22:17 act: {"actions":[{"do":"goto","target":{"x":-939,"y":70,"z":-3066}}],"say":"Mulan, Tubman: I'm coming to your table to stand in sight. I have 17 dirt to close any gap you name, and no cell yet."}
+- 22:17 act: {"actions":[],"say":"Seven, hunger 16, health 18.3. Chewie and Hatshepsut are at 17, so they go first. I'll take melon only if any is left. Mulan, I'm ready to close gaps at the spot you choose."}
+- 22:22 act: {"actions":[],"say":"Mulan, Seven here. Which exact cell x,y,z do you want my dirt on? I'm standing at -939,70,-3066 and can reach it. Enderman is about, so let's be quick."}
+- 22:30 act: {"actions":[],"say":"Seven, night 1178, hunger 16, health 18. Magellan, after Hatshepsut and Zack, I'd take one slice if any is left. I'm staying in Mulan's sight."}
+- 22:30 act: {"actions":[],"say":"Lara, Seven here, hunger 16. I can't see you yet. Come into my reach at Mulan's table, -939,70,-3066, and I'll take one slice. Hatshepsut and Zack first if they are weaker."}
+- 22:31 act: {"actions":[],"say":"Lara, Seven: I won't walk out at night either. I'll stay at Mulan's table and come to you at first light, if the melon is still there. Thank you."}
+- 22:33 act: {"actions":[],"say":"Seven, dawn 1178, hunger 16, health 18. Uhura, I'm at Mulan's table, -939,70,-3066. Give your porkchop to whoever is weaker first; if none is weaker, I'll take one. Mulan, is ther
+- 22:33 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-940,"y":70,"z":-3068}}],"say":"Mulan, Seven: placing dirt at -940,70,-3068, the cell you named. Thank you."}
+- 22:34 act: {"actions":[],"say":"Mulan, the dirt is placed on -940,70,-3068. Chewie, Uhura: I am at hunger 16, so I can wait for food until the weaker ones are fed."}
+- 22:34 act: {"actions":[{"do":"goto","target":{"x":-935,"y":70,"z":-3066}}],"say":"Seven, hunger 16, here. Chewie, I'm stepping a few blocks off from Mulan. Give me the melon slice, please."}
+- 22:35 act: {"actions":[],"say":"Thank you, Chewie. I'll keep the slice for someone weaker than me. An enderman is out to the east; I will stay in Mulan's sight."}
+- 22:42 act: {"actions":[],"say":"Seven, hunger 16, holding one melon slice for whoever is weakest. Say your name in my reach and I'll hand it over."}
+- 22:46 act: {"actions":[],"say":"Seven, night 1179, hunger 16. I hold one melon slice for Bilbo if he comes alone within 2 blocks of me and says his name."}
+- 22:54 act: {"actions":[{"do":"goto","target":{"x":-938,"y":70,"z":-3066}}],"say":"Seven, dawn 1179. Health 18, hunger 16. Holding 1 melon slice for Bilbo or the weakest. Going to Mulan's table for the next cell.
+- 22:55 act: {"actions":[{"do":"goto","target":{"x":-939,"y":70,"z":-3066}}],"say":"Thank you, Chewie. Seven here, I hold 2 melon slices now. Bilbo or whoever is weakest, say your name in my reach and the first on
+- 22:55 act: {"actions":[],"say":"Mulan, Seven in your reach. Name the exact cell x,y,z for my dirt and I'll place it now. I still hold 2 melon for whoever is weakest."}
+- 22:56 act: {"actions":[],"say":"Mulan, Seven: I'm at health 18, so the melon goes to anyone weaker first. Tubman, Mulan, name the next empty cell and I'll place my dirt on it. I'm staying in your reach."}
+- 22:56 act: {"actions":[{"do":"goto","target":{"x":-942,"y":70,"z":-3066}},{"do":"place","block":"dirt","at":{"x":-942,"y":70,"z":-3068}}],"say":"Mulan, Seven: going to -942,70,-3066 to place my dirt on -942,70,-
+- 22:56 act: {"actions":[],"say":"Mulan, Seven: dirt placed at -942,70,-3068. Next empty cell, name it and I'll place my dirt. Still holding 2 melon for the weakest."}
+- 22:57 act: {"actions":[],"say":"Mulan, Tubman: -942,70,-3068 is already my dirt, so Tubman's planks go on -943,70,-3068. I'm done with that cell. Mulan, name my next cell x,y,z and I'll place a dirt there."}
+- 22:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-944,"y":70,"z":-3068}}],"say":"Mulan: placing my dirt on -944,70,-3068 now."}
+- 23:04 act: {"actions":[],"say":"Seven, dusk 1179. Staying here with Mulan and the group. Health 18, hunger 16. I still hold 2 melon for whoever is weakest; say your name in my reach."}
+- 23:05 act: {"actions":[],"say":"Mulan, thank you. My hunger is 16, not the lowest, so I'll keep the 2 melon for whoever is weaker. Enderman is out east; I'm staying in your sight."}
+- 23:15 act: {"actions":[],"say":"Seven, dawn 1180. Health 18, hunger 16. I hold 2 melon for the weakest. Zack, if you are weaker, come within my reach and say your name."}
+- 23:19 act: {"actions":[],"say":"Seven, midday 1180. Health 18, hunger 16. I hold 2 melon and 14 dirt. Mulan, name my cell when Hatshepsut and Florence are placed. Zack or anyone weaker, come within my reach and 
+- 23:25 act: {"actions":[],"say":"Seven, dusk 1181. I stay near Mulan and Tubman tonight, in sight at the table. Health 18, hunger 16. I hold 2 melon for the weakest."}
+- 23:25 act: {"actions":[{"do":"eat"}],"say":"Mulan, Seven: eating one melon slice now as you asked. I keep the other for whoever is weaker. Staying in your sight; placing nothing until dawn."}
+- 23:29 act: {"actions":[],"say":"Seven, morning 1181. Health 20, hunger 17. I hold 1 melon for the weakest and 14 dirt. Mulan, name my empty wall cell x,y,z and I'll place it. Marco, I'm in your sight."}
+- 23:30 act: {"actions":[{"do":"goto","target":{"x":-950,"y":70,"z":-3066}}],"say":"Mulan, Seven walking to -950,70,-3066 beside the wall to check -950,70,-3068 for you."}
+- 23:30 act: {"actions":[{"do":"note","text":"At -950,71,-3066, beside -950,70,-3068 area. Checking the cell."}],"say":"Mulan, I'm at -950,71,-3066, two cells north of -950,70,-3068. I can't yet tell if that cell 
+- 23:31 act: {"actions":[{"do":"goto","target":{"x":-950,"y":71,"z":-3067}}],"say":"Mulan, stepping next to -950,70,-3068 now. I will look and report, and I won't place anything."}
+- 23:31 act: {"actions":[{"do":"goto","target":{"x":-950,"y":71,"z":-3067}}]}
+- 23:31 act: {"actions":[],"say":"Mulan, Seven. I tried twice to step to -950,71,-3067, next to -950,70,-3068, and I'm still at -950,71,-3066. The walk says it worked but I don't move. I can't confirm that cell fr
+- 23:47 act: {"actions":[{"do":"note","text":"Seven, midday 1182: I am at -950,71,-3066, not beside -950,70,-3068, so I cannot confirm it. My survey shows that cell as unknown. I place nothing."}],"say":"Mulan, Se
+- 23:59 act: {"actions":[],"say":"Mulan, Seven here, morning 1183. I hold 16 dirt and can help with the sealed box once you name its site. I'm at -950,71,-3066, in sight, placing nothing until then."}
+- 00:00 act: {"actions":[{"do":"give","to":"furiosa","item":"melon_slice","count":1}],"say":"Furiosa, I'm giving you my melon slice now. Hunger 17 is low, so eat it. Mulan, I'm holding my dirt until you name a sit
+- 01:01 say: {"text":"Seven, at -950,71,-3066, in sight, not sheltered, hunger 17. I hold a melon slice and 4 rotten flesh for whoever is weakest and alone in my reach."}
+- 01:02 say: {"text":"Seven, morning 1186, hunger 17, health 20. Not the weakest. Trini, Lara: give to Gimli or Magellan first. I hold my melon and 4 rotten flesh for them."}
+- 01:04 say: {"text":"Seven, midday 1186. Survey of -946..-940 at y71-72, z -3068..-3064: mostly air, only the grass at my feet and -946 at y70. Floor under -944..-942 is unclear to me. Mulan, I suggest centre -94
+- 01:05 act: {"actions":[{"do":"goto","target":{"x":-944,"y":71,"z":-3066}}],"say":"Seven going to stand beside -943,71,-3066 to confirm the floor. Placing nothing."}
+- 01:05 say: {"text":"Seven beside -944,70,-3066, standing on grass at y70. Air above me at y71. I can't see the cell -943,70 from here, so Mulan or Tubman please check its floor before naming the centre. I place 
+- 01:09 say: {"text":"Seven agrees with Tubman: -943,70,-3066 is air, ground at y69. I will not name it. Mulan, I hold 16 dirt and 1 dark oak plank, placing nothing until you name a spot with solid ground at y70."
+- 01:18 say: {"text":"Seven joining the y70 ground search with Mulan and Tubman, in sight. I'll walk where you point and report each floor I check. Placing nothing."}
+- 01:18 say: {"text":"Seven: I see Mulan's birch floor at y70, x -943 to -941, z -3066 to -3064. I hold 16 dirt and 1 dark oak plank for the walls. Name the wall cells and I'll place only what you name, after you 
+- 01:27 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3054}}],"say":"Seven, morning 1187, going to the bed row at -944,73,-3054 to join Tubman and Mulan, in sight. Placing nothing."}
+- 01:27 act: {"actions":[],"say":"Seven here at the bed row, in sight of Mulan and Tubman. Placing nothing until Mulan names a cell and someone checks it."}
+- 01:27 act: {"actions":[],"say":"Seven, morning 1187: survey of the y70 floor (x -943..-941, z -3066..-3064) shows 2 birch planks placed, the other 7 cells air. I placed nothing. Mulan, name the cells and I will 
+- 01:28 act: {"actions":[],"say":"Seven, survey again: y70 floor still shows only 3 birch cells at -943..-941, z -3066..-3064; the rest air. Mulan, I place nothing until the cells are checked as birch and you name
+- 01:29 act: {"actions":[],"say":"Seven, re-survey at y70, x -943..-941, z -3066..-3064: birch only at -942,70,-3065 and -942,70,-3064. Other cells read air. Mulan, please check your floor; I place nothing."}
+- 01:33 act: {"actions":[{"do":"goto","target":{"x":-942,"y":71,"z":-3062}}],"say":"Seven: walking to the floor now, to stand in reach and look at y70 myself. Placing nothing."}
+- 01:33 act: {"actions":[],"say":"Seven, standing at -942,70,-3062 now. My survey at y70: birch at -942,-3065 and -942,-3064 only; the other 7 cells read air. Mulan, I place nothing and name no wall cell until som
+- 01:33 act: {"actions":[],"say":"Mulan, one cell I read as air: -943,70,-3064. Check it alone. Tubman's reading agrees with mine, so it is air on both of our surveys. I place nothing."}
+- 01:34 act: {"actions":[],"say":"Mulan, Seven, afternoon 1187: I surveyed again. Still air at most of the 9 cells; birch reads only at -942,70,-3065 and one cell in the z -3064 row. I cannot confirm 9 birch. I pl
+- 01:38 act: {"actions":[{"do":"goto","target":{"x":-946,"y":71,"z":-3052}}],"say":"Seven, dusk 1187: going to the bed row in the group's sight. Placing nothing. Holding my melon and rotten flesh for the weakest a

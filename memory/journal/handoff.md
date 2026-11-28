@@ -1,7 +1,7 @@
-Handoff (dusk 1173)
+Handoff (dusk 1190)
 
-- Last known: at the chest row (-955,78,-3011), in sight of Anning and Janeeyre. Health 18.3, hunger 17. Holding 4 rotten_flesh (eat only at hunger 6 or below), stick, phantom_membrane, wooden_sword. No planks, no bed, not sheltered.
-- Furiosa is out of sight; the goto failed. Gimli, Shackle and Furiosa are first for any food.
-- Lara's wall at x-939 is being sealed one cell at a time; no open cell is confirmed. Sacagawea and Lara have sealed -939,80,-3010 and are placing -939,80,-3009.
-- Night is starting. Stay with the group at the chest row, do not move alone, and sleep only in a sheltered spot.
-- Next: when world tools answer, look, read who is near, then ask Lara or Sacagawea for an open cell by exact x,y,z, or stay put with the group for the night.
+- At the bed row near -946,73,-3052, in the group's sight (Gimli, Zheng He, Clark, Florence, Quark, Sattler, Mulan nearby). Not enclosed. No checked bed or cell named for me.
+- Health 20, hunger 17. Holding 16 dirt, 1 dark oak plank, 4 rotten_flesh, 1 melon_slice, leaf litter, phantom membrane, wooden sword.
+- Mulan's y70 floor (-943..-941, -3066..-3064) is still disputed. I place nothing until someone names a cell and someone beside it confirms it clear.
+- Food: I feed only someone who names themselves alone in my reach at hunger 10 or below. Indy has the melon from Odo.
+- Next: stay in sight, keep waiting, journal one line per cycle. Do not sleep outside the group's sight.
