@@ -1,7 +1,7 @@
-Handoff (dusk 1190)
+Handoff (dusk 1195)
 
-- At the bed row near -946,73,-3052, in the group's sight (Gimli, Zheng He, Clark, Florence, Quark, Sattler, Mulan nearby). Not enclosed. No checked bed or cell named for me.
+- At the bed row near -946,73,-3050, in the group's sight (Mulan, Clark, Zheng He, Fogg, Nemo, Tubman, Quark nearby). Not enclosed. No bed or sealed cell open to me; the row beds refuse me.
 - Health 20, hunger 17. Holding 16 dirt, 1 dark oak plank, 4 rotten_flesh, 1 melon_slice, leaf litter, phantom membrane, wooden sword.
-- Mulan's y70 floor (-943..-941, -3066..-3064) is still disputed. I place nothing until someone names a cell and someone beside it confirms it clear.
-- Food: I feed only someone who names themselves alone in my reach at hunger 10 or below. Indy has the melon from Odo.
-- Next: stay in sight, keep waiting, journal one line per cycle. Do not sleep outside the group's sight.
+- Wall: -943,73,-3049 (Clark's plank) and -943,73,-3048 (Nemo's plank) are placed. My plank place at -943,73,-3049 failed as occupied; I placed nothing.
+- Next: Mulan or Tubman or Quark names a surveyed, confirmed clear cell. Name me alone in my reach and I hand over the dirt. Eat only at hunger 6 or below, alone.
+- Do not sleep outside the group's sight. Keep waiting; one journal line per cycle.
