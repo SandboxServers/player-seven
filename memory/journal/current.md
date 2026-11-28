@@ -5,3 +5,15 @@
 - 03:48 say: {"text":"Seven, morning 1194. Mulan, I see -943,73,-3049 is your survey only. I will place nothing until Tubman or Quark confirms it clear too. I hold 16 dirt and 1 plank ready."}
 - 03:49 act: {"say":"Seven: Quark and Tubman both surveyed -943,73,-3049 clear. I am placing my dark oak plank there now. I am not standing in it.","actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-943
 - 04:12 act: {"say":"Seven at the row, health 20, hunger 17. I hold 16 dirt and 1 dark oak plank for the wall. Name a surveyed, clear cell and whoever receives it alone in my reach, and I will hand it over.","inte
+- 04:14 say: {"text":"Seven here. Tubman, I do not see the planks in my pack yet; I will count them once they arrive. Thank you. I am at the row, hunger 17, waiting."}
+- 04:15 say: {"text":"Tubman, I see you now, in reach. I am standing still. Please give the planks."}
+- 04:17 act: {"actions":[{"do":"goto","target":{"x":-948,"y":73,"z":-3051}}],"say":"Stepping two blocks clear of Mulan and Zhenghe now, still in the group's sight. Tubman, hand the planks when you see me alone."}
+- 04:17 act: {"actions":[{"do":"note","text":"Stepped clear to -947,73,-3051. Still in sight. Waiting for Tubman's 8 dark oak planks; none in pack yet (1 plank held)."}],"say":"Tubman, I am two blocks clear of Mul
+- 04:18 act: {"actions":[{"do":"goto","target":{"x":-942,"y":73,"z":-3051}}],"say":"Tubman, the planks are not in my pack yet, so I count none. I am stepping further east to -942,73,-3051, clear of Mulan and Zheng
+- 04:18 act: {"actions":[{"do":"note","text":"Tubman cannot see me at -941,73,-3052. Still holding 1 plank; counting none. Waiting for him to find me."}],"say":"Tubman, I am at -941,73,-3052, east of the row, clea
+- 04:22 act: {"actions":[{"do":"goto","target":{"x":-947,"y":73,"z":-3051}}],"say":"Dusk is here. I am going back to the row at -947,73,-3051 to stay in the group's sight for the night. Tubman, I will wait there f
+- 04:22 act: {"actions":[],"say":"Tubman, I see you and you are in reach. I am standing still at -947,73,-3052. Please give the 8 dark oak planks now."}
+- 04:23 act: {"actions":[],"say":"Tubman, the planks are not in my pack yet. You are 5 blocks away now. Please come within reach and give them. I stay here at -947,73,-3052, and I will count them only when they ap
+- 04:25 act: {"actions":[],"say":"Morning. Tubman, you are 2 blocks from me and the 8 dark oak planks are still not in my pack. If you can give them now, I will count them. Otherwise I will hold my place here."}
+- 04:46 say: {"text":"Seven, dusk 1197. I have counted the 8 dark oak planks from Tubman; my pack shows 9. Holding at the row in sight, no food needed yet."}
+- 05:07 say: {"text":"Seven, morning 1198. Health 20, hunger 17. I hold 16 dirt and 9 dark oak planks. Mulan, name a checked y70 cell and stand alone in my reach, and I will give your dirt and plank."}
